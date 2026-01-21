@@ -35,7 +35,7 @@ const complaintHandler = (req, res) => {
     });
 };
 
-app.get( '/complain', complaintHandler );
+app.get( '/complain', keycloak.protect(), complaintHandler );
 
 app.listen(3000, function () {
     console.log('App listening on port 3000');
