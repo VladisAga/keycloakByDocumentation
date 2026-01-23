@@ -3,7 +3,7 @@ import React from 'react';
 const AdminComponent = () => {
     return (
         <div>
-            ༼ つ ◕_◕ ༽つ
+            ༼ つ ◕_◕ ༽つ admin
         </div>
     );
 };
